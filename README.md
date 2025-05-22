@@ -1,1 +1,101 @@
 # opticafisiCA
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Óptica na Prática</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; color: #333; }
+    header { background-color: #4a90e2; color: white; padding: 20px; text-align: center; }
+    nav { display: flex; justify-content: center; gap: 20px; background-color: #e0e0e0; padding: 10px; }
+    nav a { text-decoration: none; color: #4a4a4a; font-weight: bold; }
+    nav a:hover { color: #0077cc; }
+    section { padding: 20px; }
+    h2 { margin-bottom: 10px; color: #0077cc; }
+    .box { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    ul, ol { padding-left: 20px; margin-top: 10px; }
+    .formula { background: #eef; padding: 10px; border-left: 5px solid #0077cc; margin: 10px 0; font-family: monospace; }
+    footer { background-color: #4a90e2; color: white; text-align: center; padding: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Óptica na Prática 🔬✨</h1>
+    <p>Aprenda de forma clara e visual os conceitos mais importantes de óptica!</p>
+  </header>
+
+  <nav>
+    <a href="#conceitos">Conceitos</a>
+    <a href="#formulas">Fórmulas</a>
+    <a href="#visao">Visão Humana</a>
+    <a href="#simulados">Simulados</a>
+  </nav>
+
+  <section id="conceitos">
+    <div class="box">
+      <h2>🔍 Conceitos Fundamentais</h2>
+      <ul>
+        <li><strong>Reflexão:</strong> A luz bate em uma superfície e retorna.</li>
+        <li><strong>Refração:</strong> Mudança de direção da luz ao passar de um meio para outro.</li>
+        <li><strong>Lentes:</strong> Podem ser convergentes (focam a luz) ou divergentes (espalham a luz).</li>
+        <li><strong>Espelhos:</strong> Podem ser planos (imagem igual) ou esféricos (imagem ampliada ou invertida).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="formulas">
+    <div class="box">
+      <h2>📐 Fórmulas Essenciais</h2>
+      <div class="formula">1. Equação dos pontos conjugados: <br> \( \frac{1}{f} = \frac{1}{p} + \frac{1}{p'} \)</div>
+      <div class="formula">2. Aumento linear: <br> \( A = \frac{i}{o} \) (imagem sobre objeto)</div>
+      <div class="formula">3. Índice de refração: <br> \( n = \frac{c}{v} \) </div>
+      <div class="formula">4. Lei da refração (Snell): <br> \( n_1 \cdot \sin(\theta_1) = n_2 \cdot \sin(\theta_2) \)</div>
+    </div>
+  </section>
+
+  <section id="visao">
+    <div class="box">
+      <h2>👁️ Óptica da Visão Humana</h2>
+      <p>
+        O olho humano funciona como um sistema de lentes. A córnea e o cristalino convergem a luz para formar uma imagem na retina.
+        Defeitos comuns incluem:
+      </p>
+      <ul>
+        <li><strong>Miopia:</strong> Imagem formada antes da retina. Corrigida com lente divergente.</li>
+        <li><strong>Hipermetropia:</strong> Imagem formada após a retina. Corrigida com lente convergente.</li>
+        <li><strong>Astigmatismo:</strong> Deformação na córnea que distorce a visão. Corrigido com lente cilíndrica.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="simulados">
+    <div class="box">
+      <h2>📝 Simulados Interativos</h2>
+      <p>Teste seus conhecimentos com questões de múltipla escolha sobre os tópicos que você acabou de ver.</p>
+      <ol>
+        <li>O que acontece com a luz ao passar do ar para a água?
+          <ul>
+            <li>A) Ela reflete totalmente</li>
+            <li>B) Aumenta a velocidade</li>
+            <li><strong>C) Diminui a velocidade e muda de direção ✅</strong></li>
+          </ul>
+        </li>
+        <li>Qual a imagem formada por uma lente divergente?
+          <ul>
+            <li><strong>A) Sempre virtual, direita e menor ✅</strong></li>
+            <li>B) Sempre real e invertida</li>
+            <li>C) Sempre real e maior</li>
+          </ul>
+        </li>
+        <!-- Adicione mais perguntas se quiser -->
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>Feito com 💙 por Duda Morici | Física é visão e luz!</p>
+  </footer>
+</body>
+</html>
